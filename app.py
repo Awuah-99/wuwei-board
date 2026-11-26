@@ -28,7 +28,7 @@ ALLOWED_EXTENSIONS = {"png", "jpg", "jpeg", "gif", "webp"}
 MAX_CONTENT_LENGTH = 4 * 1024 * 1024  # 4 MB
 MAX_PIXELS = 25_000_000  # about 5000 x 5000
 app.config["MAX_CONTENT_LENGTH"] = MAX_CONTENT_LENGTH
-app.config["DONATION_BTC_ADDRESS"] = "bc1qg8m4slzxzafqvxwvuq3n42u7wrzdwpctpz4za0"
+app.config["DONATION_BTC_ADDRESS"] = "bc1qn70pn9s7jdyzerg9sv0k9re8w9fefpwvfg839h"
 def ensure_dirs():
     os.makedirs(UPLOAD_FOLDER, exist_ok=True)
     os.makedirs(THUMB_FOLDER, exist_ok=True)
